@@ -405,7 +405,7 @@ html, body {
 }
 
 .intranet-links_main .content a {
-text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 .intranet-links_main .content .card {
@@ -451,7 +451,22 @@ text-decoration: none !important;
 }
 
 .intranet-links_footer .content .poweredby {
-width: 125px;
-vertical-align: middle;
-margin-left: 2.5px;
+  width: 125px;
+  vertical-align: middle;
+  margin-left: 2.5px;
+}
+
+/* Resolution Scaling */
+@media (min-width: 1080px) and (max-width: 1440px) {
+  .intranet-links_main {
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+  }
+}
+
+@media (min-width: 1080px) {
+  .intranet-links_main {
+    padding-top: 15.75vh;
+    padding-bottom: 15.75vh;
+  }
 }
